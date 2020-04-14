@@ -1,0 +1,264 @@
+body {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Arial';
+}
+
+header {
+    background-color: #445162;
+    width: 100%;
+    color: white;
+}
+
+header:after,
+.about:after,
+.pluses:after,
+.screen:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.header-text {
+    padding: 50px 0 0 50px;
+    margin: 0;
+    float: left;
+}
+
+h1 {
+    margin: 0;
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.3);
+    font-family: Arial;
+    font-size: 60px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+.header-text ul {
+    margin: 50px 0 50px 0;
+    list-style: url(../img/ok.png);
+    text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.3);
+    font-size: 20px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.8;
+    letter-spacing: normal;
+}
+
+header img {
+    margin: 0;
+    float: right;
+    padding: 50px 50px 0 0;
+}
+
+.about-text {
+    padding: 50px 0 0 50px;
+    margin: 0;
+    float: left;
+    width: 649px;
+}
+
+.about-text h2 {
+    font-family: Arial;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #445161;
+    margin: 0 0 30px 0;
+}
+
+.about-text p {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333333;
+    margin: 0 0 20px 0;
+}
+
+.about img {
+    float: right;
+    padding: 50px 50px 50px 0;
+}
+
+.pluses {
+    width: 100%;
+    position: relative;
+    background-color: #f5f5f5;
+}
+
+.pluses h2 {
+    margin: 0;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #445161;
+    padding: 50px 0 0 464px;
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.left {
+    margin: 0;
+    float: left;
+    list-style-type: none;
+    padding: 29px 0 51px 91px;
+    width: 526px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #333333;
+}
+
+.right {
+    margin: 0;
+    float: right;
+    list-style-type: none;
+    padding: 29px 73px 51px 0;
+    width: 526px;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #333333;
+}
+
+.left > li:before {
+    clear: both;
+    content: "";
+    display: block;
+    background-image: url(../img/Cros.png);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 50px;
+}
+
+.right > li:before {
+    clear: both;
+    content: "";
+    display: block;
+    background-image: url(../img/Cros.png);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 640px;
+}
+
+.left > li,
+.right > li {
+    width: 526px;
+    height: 63px;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #333333;
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+
+.screen {
+    width: 100%;
+}
+
+.screen h2 {
+    margin: 0;
+    padding: 51px 0 0 571px;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #445161;
+}
+
+figcaption h3 {
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #445161;
+    margin: 0;
+}
+
+figcaption p {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.4;
+    letter-spacing: normal;
+    color: #333333;
+    float: right;
+    margin: 12px 0 0 0;
+}
+
+.f1 {
+    float: left;
+    width: 575px;
+    height: 150px;
+    padding: 35px 16px 0 50px;
+    margin: 0;
+
+}
+
+.f2 {
+    float: left;
+    width: 575px;
+    height: 150px;
+    padding: 35px 16px 0 0;
+    margin: 0;
+}
+
+.f3 {
+    float: left;
+    width: 575px;
+    height: 150px;
+    padding: 30px 16px 50px 50px;
+    margin: 0;
+}
+
+.f4 {
+    float: left;
+    width: 575px;
+    height: 150px;
+    padding: 30px 16px 50px 0;
+    margin: 0;
+}
+
+figcaption {
+    width: 359px;
+    height: 150px;
+    float: right;
+    overflow: hidden;
+}
