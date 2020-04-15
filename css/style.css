@@ -13,7 +13,7 @@ body {
     box-sizing: border-box;
 }
 
-header:after,
+.header:after,
 .about:after,
 .pluses:after,
 .screen:after {
@@ -58,9 +58,13 @@ header img {
     float: right;
     padding: 0;
 }
+.about{
+    padding: 50px;
+box-sizing: border-box;
+}
 
 .about-text {
-    padding: 50px 0 0 50px;
+    padding: 0;
     margin: 0;
     float: left;
     width: 649px;
@@ -89,10 +93,13 @@ header img {
     color: #333333;
     margin: 0 0 20px 0;
 }
+.about-text p:last-child {
+margin: 0;
+}
 
-.about img {
+.video{background-color: #445161;
     float: right;
-    padding: 50px 50px 50px 0;
+    padding: 0;
 }
 
 .pluses {
