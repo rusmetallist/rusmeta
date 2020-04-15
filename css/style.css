@@ -223,7 +223,7 @@ figcaption p {
     margin: 12px 0 0 0;
 }
 
-.f1 {
+.figure1 {
     float: left;
     width: 575px;
     height: 150px;
@@ -232,7 +232,7 @@ figcaption p {
 
 }
 
-.f2 {
+.figure2 {
     float: left;
     width: 575px;
     height: 150px;
@@ -240,7 +240,7 @@ figcaption p {
     margin: 0;
 }
 
-.f3 {
+.figure3 {
     float: left;
     width: 575px;
     height: 150px;
@@ -248,7 +248,7 @@ figcaption p {
     margin: 0;
 }
 
-.f4 {
+.figure4 {
     float: left;
     width: 575px;
     height: 150px;
