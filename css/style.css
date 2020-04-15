@@ -256,7 +256,7 @@ figcaption p {
     margin: 0;
 }
 
-figcaption {
+.figcaption {
     width: 359px;
     height: 150px;
     float: right;
