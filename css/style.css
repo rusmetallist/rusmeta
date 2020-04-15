@@ -9,6 +9,11 @@ header {
     background-color: #445162;
     width: 100%;
     color: white;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+
 }
 
 header:after,
@@ -21,7 +26,7 @@ header:after,
 }
 
 .header-text {
-    padding: 50px 0 0 50px;
+    padding: 0;
     margin: 0;
     float: left;
 }
@@ -39,7 +44,7 @@ h1 {
 }
 
 .header-text ul {
-    margin: 50px 0 50px 0;
+    margin: 30px 0 0 0;
     list-style: url(../img/ok.png);
     text-shadow: 0.5px 0.9px 0 rgba(0, 0, 0, 0.3);
     font-size: 20px;
@@ -53,7 +58,7 @@ h1 {
 header img {
     margin: 0;
     float: right;
-    padding: 50px 50px 0 0;
+    padding: 0;
 }
 
 .about-text {
