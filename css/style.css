@@ -288,12 +288,12 @@ header img {
     margin: 0;
     padding: 0;
     width: 100%;
-    min-height: 424px;
     position: relative;
 }
 
 .reviews h2 {
     margin: 0;
+    padding: 0;
     font-size: 30px;
     font-weight: normal;
     font-stretch: normal;
@@ -319,8 +319,8 @@ header img {
 
 .art {
     margin: 0;
-    width: 483px;
-    height: 121px;
+    min-width: 483px;
+    min-height: 137px;
     overflow: hidden;
     float: left;
 
@@ -412,4 +412,108 @@ header img {
     color: #989898;
     display: block;
     margin: 5px 0 0 0;
+}
+
+.buy {
+    margin: 0;
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.buy h2 {
+    margin: 0 0 29px 0;
+    padding: 0;
+    display: block;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #445161;
+    text-align: center;
+    width: 100%;
+}
+
+.price {
+    border: solid 2px #445162;
+    background-color: #445162;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 16px 0 20px 0;
+    margin: 0 22.5px 0 22.5px;
+}
+
+.price h3 {
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.25;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 0 17px 0;
+}
+
+.price span {
+    background-color: #ffffff;
+    padding: 18px 106px;
+    font-size: 40px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 0.75;
+    letter-spacing: normal;
+    text-align: center;
+    display: block;
+    color: #445162;
+}
+
+.price ol {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.71;
+    letter-spacing: normal;
+    color: #ffffff;
+    list-style-position: inside;
+    padding: 20px;
+    margin: 0;
+}
+
+.price button {
+    width: 260px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1;
+    letter-spacing: normal;
+    margin: 0 auto;
+    color: #445161;
+    display: block;
+    text-align: center;
+    word-break: break-all;
+}
+
+.price button:hover {
+    background-color: #ebebeb;
+}
+
+.price button:active {
+    background-color: #445161;
+    color: #ffffff;
+     border: solid 2px #ffffff;
+    box-sizing: border-box;
 }
