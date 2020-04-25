@@ -326,10 +326,12 @@ header img {
 .art:nth-child(5) > div {
     margin-left: 16px;
 }
+
 .art:nth-child(2) > p,
 .art:nth-child(4) > p {
     margin-right: 16px;
 }
+
 .txt {
     font-size: 14px;
     font-weight: normal;
@@ -476,3 +478,187 @@ header img {
     border: solid 2px #ffffff;
     box-sizing: border-box;
 }
+
+.contacts {
+    width: 100%;
+    margin: 0;
+    padding: 50px;
+    background-color: #445162;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+
+.contacts span {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-size: 30px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-align: center;
+    margin: 0 0 31px 0;
+
+
+}
+
+.contacts a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+}
+
+.form input::placeholder {
+    color: #445162;
+
+}
+
+.form textarea::placeholder {
+    color: #445162;
+
+}
+
+.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    margin: 0 46px 0 0;
+}
+
+.name,
+.email,
+.textarea {
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    min-width: 500px;
+    border-radius: 5px;
+    color: #445162;
+    margin: 0 0 21px 0;
+}
+
+.textarea {
+    resize: none;
+}
+
+.btn {
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #445162;
+    text-transform: uppercase;
+
+}
+
+.social {
+    width: 240px;
+    height: 15px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.social a {
+    margin: 0 0 29px 0;
+}
+
+.soc {
+    width: 240px;
+    display: flex;
+    margin: 0;
+}
+
+.footer {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.footer footer {
+
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #445162;
+    margin: 0;
+    padding: 0;
+}
+
+.skype {
+    background: url(../img/skype_icon.png) no-repeat 0 -1px;
+    padding-left: 30px;
+}
+
+.icq {
+    background: url(../img/icq_icon.png) no-repeat 0 -1px;
+    padding-left: 30px;
+}
+
+.mail {
+    background: url(../img/email_icon.png) no-repeat 0 -1px;
+    padding-left: 30px;
+}
+
+.tel {
+    background: url(../img/phone_icon.png) no-repeat 0 -1px;
+    padding-left: 30px;
+}
+
+.icon {
+    background-image: url(../img/social_buttons.png);
+    background-size: cover;
+    width: 42px;
+    height: 42px;
+    display: block;
+    margin: 0;
+    padding: 0 7px 0 0;
+}
+
+.twiter {
+    background-position: 0px;
+}
+
+.facebook {
+    background-position: -48px;
+}
+
+.linkedin {
+    background-position: -97px;
+}
+
+.google {
+    background-position: -146px;
+}
+
+.youtube {
+    background-position: 47px;
+}
+
+
